@@ -8,28 +8,29 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TR.BIDSSMemLib;
-using TR;
 
 namespace BIDS_TrainInfoViewer
 {
-    public partial class Form2 : Form
+    public partial class Form3 : Form
     {
-        public Form2()
+        public Form3()
         {
             InitializeComponent();
         }
         BIDSSharedMemoryData BSMDOld = new BIDSSharedMemoryData();
-
         private void timer1_Tick(object sender, EventArgs e)
         {
             TimeSpan TSNew = TimeSpan.FromMilliseconds(BSMDOld.StateData.T);
+            double brake_Comp = BSMDOld.StateData.BC /10; //ブレーキシリンダ圧
+            double base_Comp = BSMDOld.StateData.MR /10; //元空気タンク圧
 
-            label2.Text = BSMDOld.SpecData.C.ToString();
-            
+            (progressBar1.Value, label3.Text) = ((int)brake_Comp, ((int)brake_Comp*10).ToString()+"kPa");
+            (progressBar2.Value,label4.Text) = ((int)base_Comp,((int)base_Comp*10).ToString()+"kPa");
+
             BSMDOld = StaticSMemLib.ReadBSMD();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void Form3_Load(object sender, EventArgs e)
         {
             StaticSMemLib.Begin(false, true);
         }

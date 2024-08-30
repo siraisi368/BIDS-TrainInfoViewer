@@ -252,5 +252,17 @@ namespace BIDS_TrainInfoViewer
             Form2 f = new Form2();
             f.Show();
         }
+
+        private void 圧力計ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 f = new Form3();
+            f.Show();
+        }
+
+        private void 電流計ウインドウToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form4 f = new Form4();
+            f.Show();
+        }
     }
 }
