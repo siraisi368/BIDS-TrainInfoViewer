@@ -264,5 +264,11 @@ namespace BIDS_TrainInfoViewer
             Form4 f = new Form4();
             f.Show();
         }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            MetroGeneralPL f = new MetroGeneralPL();
+            f.Show();
+        }
     }
 }

@@ -48,26 +48,41 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="TR.BIDSSMemLib.rw, Version=2.2.1.4, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\TR.BIDSSMemLib.rw.2.2.1.4\lib\netstandard2.0\TR.BIDSSMemLib.rw.dll</HintPath>
+    <Reference Include="TR.BIDSSMemLib.BveEX, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TR.BIDSSMemLib.BveEX.dll</HintPath>
+    </Reference>
+    <Reference Include="TR.BIDSSMemLib.CtrlInput, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TR.BIDSSMemLib.CtrlInput.dll</HintPath>
+    </Reference>
+    <Reference Include="TR.BIDSSMemLib.rw, Version=2.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TR.BIDSSMemLib.rw.dll</HintPath>
     </Reference>
     <Reference Include="TR.BIDSSMemLib.structs, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\TR.BIDSSMemLib.structs.1.1.0\lib\netstandard2.0\TR.BIDSSMemLib.structs.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TR.BIDSSMemLib.structs.dll</HintPath>
     </Reference>
     <Reference Include="TR.ISMemCtrler, Version=1.1.0.1, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\TR.ISMemCtrler.1.1.0.1\lib\netstandard2.0\TR.ISMemCtrler.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TR.ISMemCtrler.dll</HintPath>
     </Reference>
     <Reference Include="TR.ISMemIF, Version=1.1.0.1, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\TR.ISMemIF.1.1.0.1\lib\netstandard2.0\TR.ISMemIF.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TR.ISMemIF.dll</HintPath>
     </Reference>
-    <Reference Include="TR.SMemCtrler, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\TR.SMemCtrler.1.1.1\lib\netstandard2.0\TR.SMemCtrler.dll</HintPath>
+    <Reference Include="TR.SMemCtrler, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TR.SMemCtrler.dll</HintPath>
     </Reference>
     <Reference Include="TR.SMemCtrler.AutoReadSupporter, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\TR.SMemCtrler.AutoReadSupporter.1.1.1\lib\netstandard2.0\TR.SMemCtrler.AutoReadSupporter.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TR.SMemCtrler.AutoReadSupporter.dll</HintPath>
     </Reference>
-    <Reference Include="TR.SMemIF, Version=2.0.0.1, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\TR.SMemIF.2.0.0.1\lib\netstandard2.0\TR.SMemIF.dll</HintPath>
+    <Reference Include="TR.SMemIF, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TR.SMemIF.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -95,8 +110,20 @@
     <Compile Include="Form4.Designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
+    <Compile Include="MetroGeneralPL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetroGeneralPL.Designer.cs">
+      <DependentUpon>MetroGeneralPL.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UniCATSPL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UniCATSPL.Designer.cs">
+      <DependentUpon>UniCATSPL.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,6 +136,9 @@
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MetroGeneralPL.resx">
+      <DependentUpon>MetroGeneralPL.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -118,6 +148,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UniCATSPL.resx">
+      <DependentUpon>UniCATSPL.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

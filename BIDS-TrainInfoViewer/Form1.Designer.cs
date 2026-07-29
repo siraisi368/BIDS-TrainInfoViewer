@@ -60,12 +60,15 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label2
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.Font = new System.Drawing.Font("DSEG7 Classic Mini", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -74,7 +77,7 @@
             this.label2.Size = new System.Drawing.Size(201, 55);
             this.label2.TabIndex = 1;
             this.label2.Text = "0";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label3
             // 
@@ -155,11 +158,13 @@
             this.p5ToolStripMenuItem,
             this.p4ToolStripMenuItem,
             this.toolStripSeparator1,
+            this.toolStripMenuItem2,
+            this.toolStripSeparator2,
             this.toolStripMenuItem1,
             this.圧力計ToolStripMenuItem,
             this.電流計ウインドウToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(155, 120);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(176, 148);
             // 
             // p5ToolStripMenuItem
             // 
@@ -171,48 +176,48 @@
             this.抑速付き8段ToolStripMenuItem,
             this.b13ToolStripMenuItem});
             this.p5ToolStripMenuItem.Name = "p5ToolStripMenuItem";
-            this.p5ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.p5ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.p5ToolStripMenuItem.Text = "P5";
             // 
             // b5ToolStripMenuItem
             // 
             this.b5ToolStripMenuItem.Name = "b5ToolStripMenuItem";
-            this.b5ToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.b5ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.b5ToolStripMenuItem.Text = "B5";
             this.b5ToolStripMenuItem.Click += new System.EventHandler(this.b5ToolStripMenuItem_Click);
             // 
             // b7ToolStripMenuItem
             // 
             this.b7ToolStripMenuItem.Name = "b7ToolStripMenuItem";
-            this.b7ToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.b7ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.b7ToolStripMenuItem.Text = "B7";
             this.b7ToolStripMenuItem.Click += new System.EventHandler(this.b7ToolStripMenuItem_Click);
             // 
             // 抑速つき7段ToolStripMenuItem
             // 
             this.抑速つき7段ToolStripMenuItem.Name = "抑速つき7段ToolStripMenuItem";
-            this.抑速つき7段ToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.抑速つき7段ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.抑速つき7段ToolStripMenuItem.Text = "抑速+B7";
             this.抑速つき7段ToolStripMenuItem.Click += new System.EventHandler(this.抑速つき7段ToolStripMenuItem_Click);
             // 
             // b8ToolStripMenuItem1
             // 
             this.b8ToolStripMenuItem1.Name = "b8ToolStripMenuItem1";
-            this.b8ToolStripMenuItem1.Size = new System.Drawing.Size(119, 22);
+            this.b8ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.b8ToolStripMenuItem1.Text = "B8";
             this.b8ToolStripMenuItem1.Click += new System.EventHandler(this.b8ToolStripMenuItem1_Click);
             // 
             // 抑速付き8段ToolStripMenuItem
             // 
             this.抑速付き8段ToolStripMenuItem.Name = "抑速付き8段ToolStripMenuItem";
-            this.抑速付き8段ToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.抑速付き8段ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.抑速付き8段ToolStripMenuItem.Text = "抑速+B8";
             this.抑速付き8段ToolStripMenuItem.Click += new System.EventHandler(this.抑速付き8段ToolStripMenuItem_Click);
             // 
             // b13ToolStripMenuItem
             // 
             this.b13ToolStripMenuItem.Name = "b13ToolStripMenuItem";
-            this.b13ToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.b13ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.b13ToolStripMenuItem.Text = "B13";
             this.b13ToolStripMenuItem.Click += new System.EventHandler(this.b13ToolStripMenuItem_Click);
             // 
@@ -226,74 +231,74 @@
             this.抑速8段ToolStripMenuItem,
             this.b13ToolStripMenuItem1});
             this.p4ToolStripMenuItem.Name = "p4ToolStripMenuItem";
-            this.p4ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.p4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.p4ToolStripMenuItem.Text = "P4";
             // 
             // b5ToolStripMenuItem1
             // 
             this.b5ToolStripMenuItem1.Name = "b5ToolStripMenuItem1";
-            this.b5ToolStripMenuItem1.Size = new System.Drawing.Size(119, 22);
+            this.b5ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.b5ToolStripMenuItem1.Text = "B5";
             this.b5ToolStripMenuItem1.Click += new System.EventHandler(this.b5ToolStripMenuItem1_Click);
             // 
             // b7ToolStripMenuItem1
             // 
             this.b7ToolStripMenuItem1.Name = "b7ToolStripMenuItem1";
-            this.b7ToolStripMenuItem1.Size = new System.Drawing.Size(119, 22);
+            this.b7ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.b7ToolStripMenuItem1.Text = "B7";
             this.b7ToolStripMenuItem1.Click += new System.EventHandler(this.b7ToolStripMenuItem1_Click);
             // 
             // 抑速7段ToolStripMenuItem
             // 
             this.抑速7段ToolStripMenuItem.Name = "抑速7段ToolStripMenuItem";
-            this.抑速7段ToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.抑速7段ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.抑速7段ToolStripMenuItem.Text = "抑速+B7";
             this.抑速7段ToolStripMenuItem.Click += new System.EventHandler(this.抑速7段ToolStripMenuItem_Click);
             // 
             // b8ToolStripMenuItem
             // 
             this.b8ToolStripMenuItem.Name = "b8ToolStripMenuItem";
-            this.b8ToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.b8ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.b8ToolStripMenuItem.Text = "B8";
             this.b8ToolStripMenuItem.Click += new System.EventHandler(this.b8ToolStripMenuItem_Click);
             // 
             // 抑速8段ToolStripMenuItem
             // 
             this.抑速8段ToolStripMenuItem.Name = "抑速8段ToolStripMenuItem";
-            this.抑速8段ToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.抑速8段ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.抑速8段ToolStripMenuItem.Text = "抑速+B8";
             this.抑速8段ToolStripMenuItem.Click += new System.EventHandler(this.抑速8段ToolStripMenuItem_Click);
             // 
             // b13ToolStripMenuItem1
             // 
             this.b13ToolStripMenuItem1.Name = "b13ToolStripMenuItem1";
-            this.b13ToolStripMenuItem1.Size = new System.Drawing.Size(119, 22);
+            this.b13ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.b13ToolStripMenuItem1.Text = "B13";
             this.b13ToolStripMenuItem1.Click += new System.EventHandler(this.b13ToolStripMenuItem1_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(151, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(154, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem1.Text = "両数ウインドウ";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // 圧力計ToolStripMenuItem
             // 
             this.圧力計ToolStripMenuItem.Name = "圧力計ToolStripMenuItem";
-            this.圧力計ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.圧力計ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.圧力計ToolStripMenuItem.Text = "圧力計ウインドウ";
             this.圧力計ToolStripMenuItem.Click += new System.EventHandler(this.圧力計ToolStripMenuItem_Click);
             // 
             // 電流計ウインドウToolStripMenuItem
             // 
             this.電流計ウインドウToolStripMenuItem.Name = "電流計ウインドウToolStripMenuItem";
-            this.電流計ウインドウToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.電流計ウインドウToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.電流計ウインドウToolStripMenuItem.Text = "電流計ウインドウ";
             this.電流計ウインドウToolStripMenuItem.Click += new System.EventHandler(this.電流計ウインドウToolStripMenuItem_Click);
             // 
@@ -341,6 +346,26 @@
             this.label10.Size = new System.Drawing.Size(217, 67);
             this.label10.TabIndex = 12;
             this.label10.Text = "00:00:00";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem3});
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(175, 22);
+            this.toolStripMenuItem2.Text = "ATSプラグイン別モード";
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem3.Text = "メトロ総合PL";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // Form1
             // 
@@ -401,6 +426,9 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem 圧力計ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 電流計ウインドウToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
     }
 }
 
